@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#101418">
+
+    <TextView
+        android:id="@+id/tvPhase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="96sp"
+        android:textColor="#4FC3F7"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvCycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="48dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Dừng" />
+
+</LinearLayout>
